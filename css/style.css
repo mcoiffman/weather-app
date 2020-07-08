@@ -19,7 +19,7 @@ body {
     height: 30vh;
     width: 50%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -41,4 +41,8 @@ body {
 .degree-section h2 {
     font-size: 40px;
 
+}
+
+#icon-image {
+    height: 125px;
 }
