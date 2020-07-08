@@ -11,19 +11,22 @@
   </head>
 
   <body>
+    <input type="text" id="newLocation" maxlength="25" />
+    <button class="weather-btn" onclick="newLocationFunc()">
+      Find Weather
+    </button>
+
     <div class="location">
-      <h1 class="location-timezone">Timezone</h1>
-      <img id="icon-image" src=""/>
+      <h1 class="location-timezone"></h1>
+      <img id="icon-image" src="" />
     </div>
     <div class="temperature">
       <div class="degree-section">
-        <h2 class="temperature-degree">34</h2>
-        <span>F</span>
+        <h2 class="temperature-degree"></h2>
+        <span id="temp-letter">'F</span>
       </div>
 
-      <div class="temperature-description">
-        It is cold
-      </div>
+      <div class="temperature-description"></div>
     </div>
 
     <script src="js/script.js"></script>
