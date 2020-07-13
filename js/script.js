@@ -64,3 +64,7 @@ function setIconImageFromApi(icon) {
   ).src = `icons/weather/64x64/${iconSplit[1]}`;
 }
 // });
+
+function dummy() {
+  
+}
